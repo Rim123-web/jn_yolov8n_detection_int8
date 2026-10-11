@@ -1,0 +1,68 @@
+{
+  "fp32": {
+    "status": "PASS",
+    "precision": "FP32",
+    "selected_path": "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_fp32_640x960_batch1_warmup10_20260720_165642",
+    "selection_basis": "accepted final validation PASS plus complete per-file manifest verification",
+    "manifest_entries": 303,
+    "manifest_failures": [],
+    "source_sha256": "7c09b3b9866f633c60005b7446f29e9612fae00a8789ab9fe983b32b2f08828d",
+    "onnx_sha256": "6a58292b377d7bdfe208fa23adff170e864d9d8695dba0c7ab4d6e426ff15524",
+    "engine_sha256": "8c050c451554bd664b56b7cde3ed5de7ce02358e56a5f90806f8ee36a6e3d1ab",
+    "input_shape": [
+      1,
+      3,
+      640,
+      960
+    ],
+    "batch_size": 1,
+    "warmup_count": 10,
+    "measured_image_count": 192,
+    "test_order_sha256": "a83e8c3a62b08e3df6c41136cf6a716af7638c83014743346e7f7243301c6f88",
+    "warmup_paths": [
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115526_0004.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115558_0014.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115602_0015.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115611_0018.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115646_0029.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115656_0032.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115709_0036.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115949_0086.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_1_varietafrancese_DJI_20240525121111_0005.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_1_varietafrancese_DJI_20240525121121_0008.jpg"
+    ]
+  },
+  "fp16": {
+    "status": "PASS",
+    "precision": "FP16",
+    "selected_path": "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_fp16_640x960_batch1_warmup10_20260720_180924",
+    "selection_basis": "accepted final validation PASS plus complete per-file manifest verification",
+    "manifest_entries": 339,
+    "manifest_failures": [],
+    "source_sha256": "7c09b3b9866f633c60005b7446f29e9612fae00a8789ab9fe983b32b2f08828d",
+    "onnx_sha256": "6a58292b377d7bdfe208fa23adff170e864d9d8695dba0c7ab4d6e426ff15524",
+    "engine_sha256": "be58fc61b798a40454af41c6d811e569eab05e809add2eeee51b5dd0506441bd",
+    "input_shape": [
+      1,
+      3,
+      640,
+      960
+    ],
+    "batch_size": 1,
+    "warmup_count": 10,
+    "measured_image_count": 192,
+    "test_order_sha256": "a83e8c3a62b08e3df6c41136cf6a716af7638c83014743346e7f7243301c6f88",
+    "warmup_paths": [
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115526_0004.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115558_0014.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115602_0015.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115611_0018.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115646_0029.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115656_0032.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115709_0036.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115949_0086.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_1_varietafrancese_DJI_20240525121111_0005.jpg",
+      "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_1_varietafrancese_DJI_20240525121121_0008.jpg"
+    ]
+  }
+}

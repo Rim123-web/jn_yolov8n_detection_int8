@@ -1,0 +1,22 @@
+timestamp,stage,status,details
+2026-07-20T19:39:31.015267+02:00,int8_correctness,START,20 shared correctness images; five backends executed sequentially
+2026-07-20T19:41:01.641362+02:00,int8_correctness,PASS,five backends x20; sequential; separate from benchmark
+2026-07-20T19:41:46.548977+02:00,jtop_health,START,30 consecutive samples
+2026-07-20T19:42:01.222849+02:00,jtop_health,PASS,samples=30
+2026-07-20T19:42:01.598594+02:00,idle_baseline,START,"60 seconds, no inference"
+2026-07-20T19:43:01.914738+02:00,idle_baseline,PASS,duration=60.298s samples=121
+2026-07-20T19:43:15.988949+02:00,official_benchmark,START,INT8-enabled: 10 FP32-matched real warmups then one 192-image measured pass
+2026-07-20T19:44:19.003654+02:00,official_benchmark,PASS,warmup=10 measured=192 duration=30.984s
+2026-07-20T19:44:52.442100+02:00,accepted_official_run_validation,PASS,19/19
+2026-07-20T19:50:09.890121+02:00,offline_detection_metrics,START,no inference; official raw outputs only
+2026-07-20T19:52:04.409267+02:00,offline_detection_metrics,PASS,mAP50=0.977208 mAP50_95=0.830817
+2026-07-20T19:52:04.632501+02:00,int8_metric_label_finalization,START,metadata-only; canonical metric implementation remains byte-identical
+2026-07-20T19:52:04.637296+02:00,int8_metric_label_finalization,PASS,generated labels corrected; values unchanged
+2026-07-20T19:52:05.037671+02:00,timing_analysis,START,offline CSV analysis
+2026-07-20T19:52:05.133299+02:00,timing_analysis,PASS,engine=89.451ms e2e=146.395ms
+2026-07-20T19:52:05.568022+02:00,timing_decomposition_audit,START,offline residual audit; raw timings unchanged
+2026-07-20T19:52:05.586814+02:00,timing_decomposition_audit,PASS,mean=0.735ms outliers=2/192; raw unchanged
+2026-07-20T19:52:05.793067+02:00,energy_resource_analysis,START,timestamped trapezoidal integration
+2026-07-20T19:52:05.806839+02:00,energy_resource_analysis,PASS,gross=212.075J net=134.203J
+2026-07-20T19:58:15.042145+02:00,provenance_finalization,PASS,software environment and approved variables recorded; secrets excluded
+2026-07-20T20:04:46.496010+02:00,provenance_finalization,PASS,software environment and approved variables recorded; secrets excluded

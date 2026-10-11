@@ -1,0 +1,5 @@
+{
+  "path": "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_int8_640x960_batch1_warmup10_20260720_192532/model/oct_albument2_v6_source.pt",
+  "size_bytes": 6300003,
+  "sha256": "7c09b3b9866f633c60005b7446f29e9612fae00a8789ab9fe983b32b2f08828d"
+}

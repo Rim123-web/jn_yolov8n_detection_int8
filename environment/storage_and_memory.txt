@@ -1,0 +1,6 @@
+total        used        free      shared  buff/cache   available
+Mem:     4155346944  1726095360   451375104    13238272  1977876480  2506899456
+Swap:    2077655040   920215552  1157439488
+
+Filesystem        1B-blocks        Used   Available Use% Mounted on
+/dev/mmcblk0p1 124068839424 40541229056 78406447104  35% /

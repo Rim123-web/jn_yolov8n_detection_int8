@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "engine_path": "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_int8_640x960_batch1_warmup10_20260720_192532/engine/oct_albument2_v6_tensorrt_int8_1x3x640x960.engine",
+  "engine_size_bytes": 30400385,
+  "engine_sha256": "82754d9c353330540cf393aa7c13d385ab182945ba4b24bbbc3c07fed22cd466",
+  "cache": {
+    "path": "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_int8_640x960_batch1_warmup10_20260720_192532/calibration/oct_albument2_v6_int8_calibration.cache",
+    "size_bytes": 10733,
+    "sha256": "d31edf77cac862ad164184524127795b23662fc36bff08e2e747fdc3630a14b2",
+    "created_fresh": true,
+    "historical_cache_reused": false
+  },
+  "duration": {
+    "start_epoch": 1784568538.2278914,
+    "end_epoch": 1784569082.3643186,
+    "duration_s": 544.1364001710008,
+    "build_attempt": 1,
+    "oom_events": 0
+  },
+  "config": {
+    "precision_wording": "TensorRT INT8-enabled calibrated execution with TensorRT-permitted internal higher-precision fallbacks",
+    "explicit_batch": true,
+    "input_shape": [
+      1,
+      3,
+      640,
+      960
+    ],
+    "batch_size": 1,
+    "INT8_flag": "ON",
+    "FP16_flag": "OFF",
+    "TF32_flag": "OFF",
+    "DLA": "OFF; default device GPU",
+    "higher_precision_fallbacks": "PERMITTED by TensorRT",
+    "workspace_mib": 768,
+    "workspace_bytes": 805306368,
+    "calibrator": "IInt8EntropyCalibrator2",
+    "calibration_algorithm": "Entropy Calibration 2",
+    "calibration_images": 90,
+    "calibration_batch_size": 1,
+    "calibration_cache_reuse": false,
+    "tactic_sources": "TensorRT 8.0.1 defaults",
+    "timing_iterations": "TensorRT defaults",
+    "builder_optimization_level": "API unavailable/not configured",
+    "timing_cache": "fresh builder process; no historical timing cache",
+    "platform_has_fast_int8": false,
+    "platform_has_fast_fp16": true,
+    "tensorrt_version": "8.0.1.6",
+    "python": "3.8.10",
+    "numpy": "1.24.4"
+  }
+}

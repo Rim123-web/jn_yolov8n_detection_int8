@@ -1,0 +1,7 @@
+{
+  "timestamp": 1784569148.5659864,
+  "free_b": "total        used        free      shared  buff/cache   available\nMem:     4155346944  1884262400  1428480000    13373440   842604544  2593423360\nSwap:    2077655040   918163456  1159491584",
+  "swap": "NAME       TYPE           SIZE      USED PRIO\n/dev/zram0 partition 519413760 229539840    5\n/dev/zram1 partition 519413760 229314560    5\n/dev/zram2 partition 519413760 229433344    5\n/dev/zram3 partition 519413760 229875712    5",
+  "meminfo": "MemAvailable:    2532032 kB\nSwapTotal:       2028960 kB\nSwapFree:        1132316 kB",
+  "oom_kernel_evidence": ""
+}

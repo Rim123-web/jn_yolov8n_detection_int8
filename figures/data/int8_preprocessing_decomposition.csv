@@ -1,0 +1,10 @@
+label,value
+file_access_decode_ms,20.173178770833335
+exif_orientation_ms,1.2904378802083334
+color_conversion_ms,0.8785525208333334
+resize_calculation_ms,0.023976130208333335
+image_resize_ms,1.821828442708333
+padding_letterbox_ms,1.763172427083333
+pixel_scaling_ms,13.813620447916668
+layout_conversion_ms,0.047541260416666675
+fp32_contiguous_ms,6.214122416666666

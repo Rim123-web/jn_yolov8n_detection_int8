@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "script": "postprocessing.py",
+  "fp32_sha256": "bcf0a09902a647b5c477ba888a71a8e9652ff37f8b4b25eb14f057d97181a842",
+  "int8_sha256": "bcf0a09902a647b5c477ba888a71a8e9652ff37f8b4b25eb14f057d97181a842",
+  "byte_identical": true
+}

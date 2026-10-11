@@ -1,0 +1,15 @@
+[2026-07-20T19:28:58.226250+02:00] initialized IInt8EntropyCalibrator2 images=90 batch=1 shape=(1, 3, 640, 960) cache_preexists=False
+[2026-07-20T19:28:58.339733+02:00] read_calibration_cache: no cache returned (fresh calibration required)
+[2026-07-20T19:29:07.118785+02:00] provided batch 1/90: /home/jetson/Downloads/jetson_folder/jetson_valid_imgs/images/val/class_0_leccino_DJI_20240525115530_0005.jpg
+[2026-07-20T19:29:24.463220+02:00] provided batch 10/90: /home/jetson/Downloads/jetson_folder/jetson_valid_imgs/images/val/class_1_varietafrancese_DJI_20240525121234_0029.jpg
+[2026-07-20T19:29:43.895853+02:00] provided batch 20/90: /home/jetson/Downloads/jetson_folder/jetson_valid_imgs/images/val/class_2_cimadimelfimisto_DJI_20240525122856_0035.jpg
+[2026-07-20T19:30:03.336286+02:00] provided batch 30/90: /home/jetson/Downloads/jetson_folder/jetson_valid_imgs/images/val/class_3_ulivigrandi_DJI_20240525124117_0053.jpg
+[2026-07-20T19:30:22.943593+02:00] provided batch 40/90: /home/jetson/Downloads/jetson_folder/jetson_valid_imgs/images/val/class_3_ulivigrandi_DJI_20240525124947_0308.jpg
+[2026-07-20T19:30:42.537015+02:00] provided batch 50/90: /home/jetson/Downloads/jetson_folder/jetson_valid_imgs/images/val/class_3_ulivigrandi_DJI_20240525130458_0063.jpg
+[2026-07-20T19:31:02.154672+02:00] provided batch 60/90: /home/jetson/Downloads/jetson_folder/jetson_valid_imgs/images/val/class_4_montalbanosecolari_DJI_20240525181629_0101.jpg
+[2026-07-20T19:31:23.898898+02:00] provided batch 70/90: /home/jetson/Downloads/jetson_folder/jetson_valid_imgs/images/val/class_5_irriguo_DJI_20240525190101_0014.jpg
+[2026-07-20T19:31:43.673938+02:00] provided batch 80/90: /home/jetson/Downloads/jetson_folder/jetson_valid_imgs/images/val/class_5_irriguo_DJI_20240525190351_0099.jpg
+[2026-07-20T19:32:03.584690+02:00] provided batch 90/90: /home/jetson/Downloads/jetson_folder/jetson_valid_imgs/images/val/class_5_irriguo_DJI_20240525190723_0205.jpg
+[2026-07-20T19:32:05.533038+02:00] all calibration batches consumed
+[2026-07-20T19:33:55.362233+02:00] read_calibration_cache: no cache returned (fresh calibration required)
+[2026-07-20T19:33:55.365591+02:00] wrote calibration cache bytes=10733 sha256=d31edf77cac862ad164184524127795b23662fc36bff08e2e747fdc3630a14b2

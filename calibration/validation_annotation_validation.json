@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "images": 192,
+  "annotation_files": 192,
+  "objects": 2100,
+  "empty_label_images": 0,
+  "missing_labels": 0,
+  "fatal_label_error_count": 0,
+  "boxes_outside_normalized_image_bounds": 169,
+  "boundary_warning_policy": "recorded but not excluded from image-only TensorRT entropy calibration; centers/sizes remain numeric and normalized",
+  "corrupt_images": 0,
+  "images_per_class": {
+    "0": 8,
+    "1": 9,
+    "2": 7,
+    "3": 71,
+    "4": 76,
+    "5": 21
+  },
+  "objects_per_class": {
+    "0": 323,
+    "1": 318,
+    "2": 117,
+    "3": 598,
+    "4": 295,
+    "5": 449
+  },
+  "multi_class_images": 0
+}

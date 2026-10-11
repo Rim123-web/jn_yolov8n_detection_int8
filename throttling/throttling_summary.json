@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "event_count": 0,
+  "events": [],
+  "oom_events": 0,
+  "new_oom_evidence": [],
+  "oom_evidence_before": "logs/kernel_oom_before.txt",
+  "oom_evidence_after": "logs/kernel_oom_after.txt"
+}

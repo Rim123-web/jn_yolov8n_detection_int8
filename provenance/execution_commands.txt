@@ -1,0 +1,20 @@
+prepare_int8_experiment.py
+validate_calibration_dataset.py
+build_int8_engine.py (INT8_WORKSPACE_MIB=768)
+finalize_int8_engine_metadata.py
+validate_correctness.py
+run_jtop_health_test.py
+capture_idle.py
+benchmark_int8_detection.py
+validate_official_run.py
+calculate_detection_metrics.py
+analyze_timings.py
+audit_timing_decomposition.py
+analyze_energy.py
+analyze_resources.py
+compare_fp32_fp16_int8.py
+generate_figures.py
+generate_reports.py
+verify_protocol_and_immutability.py
+create_manifest.py
+validate_package.py

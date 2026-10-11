@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "minimum_duration_met": true,
+  "minimum_samples_met": true,
+  "all_samples_valid": true,
+  "no_inference_executions": true,
+  "heavy_background_work": "none initiated by benchmark"
+}

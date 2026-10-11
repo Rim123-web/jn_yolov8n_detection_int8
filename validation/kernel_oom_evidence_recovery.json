@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "reason": "validator bookkeeping input omitted before accepted run",
+  "before_source": "stability/build_memory_after.json captured after engine build and before correctness/official runtime",
+  "benchmark_rerun": false,
+  "accepted_raw_results_unchanged": true
+}

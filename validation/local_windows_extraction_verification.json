@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "manifest_entries": 387,
+  "manifest_failures": [],
+  "file_count": 393,
+  "directory_count": 30,
+  "total_size_bytes": 104492317,
+  "python": "3.8.10",
+  "tensorrt_python": "8.0.1.6",
+  "final_validation": "PASS"
+}

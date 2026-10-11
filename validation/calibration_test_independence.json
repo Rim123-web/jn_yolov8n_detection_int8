@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "exact_file_overlap_count": 0,
+  "decoded_pixel_overlap_count": 0,
+  "near_duplicate_candidate_count": 0,
+  "unresolved_near_duplicate_count": 0,
+  "perceptual_hash_algorithm": "64-bit difference hash (dHash)",
+  "perceptual_hash_threshold": 3,
+  "filename_overlap_count": 0,
+  "stem_overlap_count": 0
+}

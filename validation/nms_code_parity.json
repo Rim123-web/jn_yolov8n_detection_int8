@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "script": "nms.py",
+  "fp32_sha256": "a76703c3d6f859d4479ce578366280076bc8461dc600c71eb4c52d99a766612a",
+  "int8_sha256": "a76703c3d6f859d4479ce578366280076bc8461dc600c71eb4c52d99a766612a",
+  "byte_identical": true
+}

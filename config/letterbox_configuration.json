@@ -1,0 +1,27 @@
+{
+  "formula": "r=min(target_width/original_width,target_height/original_height)",
+  "rounding": "round resized dimensions; centered paste uses round(pad-0.1)",
+  "decoder": "Pillow",
+  "exif": "PIL.ImageOps.exif_transpose",
+  "color": "RGB",
+  "letterbox": true,
+  "preserve_aspect_ratio": true,
+  "auto_padding": false,
+  "scale_up": true,
+  "center": true,
+  "padding_value": [
+    114,
+    114,
+    114
+  ],
+  "interpolation": "PIL bilinear",
+  "normalization": "divide by 255.0 only; no mean/std",
+  "layout": "HWC to contiguous NCHW",
+  "dtype": "FP32",
+  "input_shape": [
+    1,
+    3,
+    640,
+    960
+  ]
+}

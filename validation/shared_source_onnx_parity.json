@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "source_hash_parity": true,
+  "onnx_hash_parity": true,
+  "input_shape": [
+    1,
+    3,
+    640,
+    960
+  ],
+  "embedded_nms": false
+}

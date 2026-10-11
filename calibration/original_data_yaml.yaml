@@ -1,0 +1,12 @@
+# Evaluation-only YAML for Jetson metrics. Do not use for training.
+path: /home/jetson/Downloads/Cdex-Workspace/jetson_valid_imgs
+train: images/test
+val: images/test
+test: images/test
+names:
+  0: leccino
+  1: varietafrancese
+  2: cimadimelfimisto
+  3: ulivigrandi
+  4: montalbanosecolari
+  5: irriguo

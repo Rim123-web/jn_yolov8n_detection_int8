@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "images": 192,
+  "annotation_files": 192,
+  "objects": 1994,
+  "empty_label_files": [
+    "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/labels/test/class_4_montalbanosecolari_DJI_20240525180256_0323.txt"
+  ],
+  "missing": [],
+  "malformed": [],
+  "invalid_class": [],
+  "out_of_range": [],
+  "zero_or_negative_area": [],
+  "boxes_outside_image_bounds": [],
+  "class_mapping_matches_model": true
+}

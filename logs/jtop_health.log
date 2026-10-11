@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "sample_count": 30,
+  "duration_s": 14.66556654300075,
+  "requested_interval_s": 0.5,
+  "all_consecutive_valid": true,
+  "power_tot_present": true,
+  "minimum_power_w": 2.447,
+  "maximum_power_w": 3.617,
+  "errors": []
+}

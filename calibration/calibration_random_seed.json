@@ -1,0 +1,5 @@
+{
+  "seed": 42,
+  "generator": "python random.Random",
+  "final_order": "lexicographically sorted absolute paths"
+}

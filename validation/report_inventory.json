@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "required": [
+    "article_ready_results.md",
+    "calibration_dataset_audit.md",
+    "calibration_methodology.md",
+    "defense_ready_summary.md",
+    "deployment_recommendation.md",
+    "failure_and_recovery_log.md",
+    "fp32_fp16_int8_comparison.md",
+    "full_benchmark_report.html",
+    "full_benchmark_report.md",
+    "limitations.md",
+    "methodology.md",
+    "reproducibility.md",
+    "results.md"
+  ],
+  "count": 13
+}

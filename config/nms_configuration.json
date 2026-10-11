@@ -1,0 +1,8 @@
+{
+  "implementation": "external deterministic CPU NumPy class-aware NMS",
+  "iou_threshold": 0.7,
+  "maximum_detections": null,
+  "embedded_in_engine": false,
+  "timed_independently": true,
+  "canonical_source": "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_fp32_640x960_batch1_warmup10_20260720_165642/scripts/nms.py"
+}

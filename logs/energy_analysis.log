@@ -1,0 +1,36 @@
+{
+  "energy": {
+    "status": "PASS",
+    "method": "trapezoidal integration over timestamped Power TOT; benchmark endpoints extended using nearest valid sample",
+    "measured_pass_duration_s": 30.984266373001446,
+    "telemetry_sample_count": 61,
+    "telemetry_internal_coverage_fraction": 0.9701786701392855,
+    "active_mean_power_w_time_weighted": 6.844616017339496,
+    "active_sample_mean_power_w": 6.857918032786886,
+    "active_median_power_w": 6.935,
+    "active_p95_power_w": 8.466,
+    "active_max_power_w": 8.52,
+    "active_min_power_w": 3.861,
+    "gross_energy_j": 212.07540590215925,
+    "gross_energy_per_image_j": 1.1045594057404127,
+    "idle_mean_power_w": 2.5132975206611574,
+    "idle_corrected_active_power_w": 4.331318496678336,
+    "idle_corrected_energy_j": 134.20272604738975,
+    "idle_corrected_energy_per_image_j": 0.6989725314968216,
+    "power_outlier_warning": false,
+    "warmups_excluded": true
+  },
+  "resources": {
+    "status": "PASS",
+    "cpu_mean_percent": 35.06147540983606,
+    "cpu_max_percent": 55.25,
+    "gpu_mean_percent": 61.34590163934426,
+    "gpu_max_percent": 99.7,
+    "ram_mean_mib": 2423.584912909836,
+    "ram_max_mib": 2510.17578125,
+    "process_rss_mean_mib": 1435.401575307377,
+    "process_rss_max_mib": 1546.42578125,
+    "sample_count": 61,
+    "telemetry_method": "jtop/jetson-stats Power TOT"
+  }
+}

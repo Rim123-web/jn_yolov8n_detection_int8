@@ -1,0 +1,7 @@
+{
+  "timestamp": 1784568535.790424,
+  "free_b": "total        used        free      shared  buff/cache   available\nMem:     4155346944  1711583232   432230400    13312000  2011533312  2520616960\nSwap:    2077655040   917970944  1159684096",
+  "swap": "NAME       TYPE           SIZE      USED PRIO\n/dev/zram0 partition 519413760 229490688    5\n/dev/zram1 partition 519413760 229257216    5\n/dev/zram2 partition 519413760 229380096    5\n/dev/zram3 partition 519413760 229842944    5",
+  "meminfo": "MemAvailable:    2461292 kB\nSwapTotal:       2028960 kB\nSwapFree:        1132504 kB",
+  "heavy_processes": "jetson    101720  0.0  0.2  18920 10492 ?        S    19:28   0:00 python3 - /home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_int8_640x960_batch1_warmup10_20260720_192532"
+}

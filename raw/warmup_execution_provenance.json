@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "configured_warmups": 10,
+  "recorded_rows": 10,
+  "unique_image_paths": 10,
+  "engine_executions": 10,
+  "real_images": true,
+  "full_pipeline": true,
+  "preprocessing_included": true,
+  "h2d_included": true,
+  "engine_included": true,
+  "d2h_included": true,
+  "postprocessing_and_nms_included": true,
+  "drawing_or_saving_included": false,
+  "excluded_from_official_latency_fps_metrics_resources_energy": true,
+  "image_paths": [
+    "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115526_0004.jpg",
+    "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115558_0014.jpg",
+    "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115602_0015.jpg",
+    "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115611_0018.jpg",
+    "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115646_0029.jpg",
+    "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115656_0032.jpg",
+    "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115709_0036.jpg",
+    "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_0_leccino_DJI_20240525115949_0086.jpg",
+    "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_1_varietafrancese_DJI_20240525121111_0005.jpg",
+    "/home/jetson/Downloads/jetson_folder/jetson_test_imgs/images/test/class_1_varietafrancese_DJI_20240525121121_0008.jpg"
+  ],
+  "failures": 0,
+  "paths_match_authoritative_fp32": true
+}

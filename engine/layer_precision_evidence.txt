@@ -1,0 +1,1 @@
+TensorRT 8.0.1 Python API did not expose a reliable per-layer runtime precision dump for this serialized engine. Evidence retained: INT8 builder flag enabled, fresh IInt8EntropyCalibrator2 attached, all 90 calibration batches consumed, and non-empty fresh cache created. Do not claim every layer is INT8.

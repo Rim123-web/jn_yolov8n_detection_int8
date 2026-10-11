@@ -1,0 +1,6 @@
+{
+  "calibration_selection_seed": 42,
+  "test_order": "authoritative lexicographic order, no randomization",
+  "warmup_order": "authoritative first 10 paths",
+  "benchmark_randomness": "none"
+}

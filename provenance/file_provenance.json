@@ -1,0 +1,42 @@
+{
+  "manifest": "provenance/hash_manifest.csv",
+  "manifest_sha256_file": "provenance/hash_manifest.sha256",
+  "excluded_self_referential_files": [
+    "provenance/hash_manifest.csv",
+    "provenance/hash_manifest.sha256",
+    "validation/final_validation_report.json",
+    "validation/final_validation_report.md"
+  ],
+  "source_model": {
+    "path": "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_int8_640x960_batch1_warmup10_20260720_192532/model/oct_albument2_v6_source.pt",
+    "filename": "oct_albument2_v6_source.pt",
+    "size_bytes": 6300003,
+    "size_mib": 6.008151054382324,
+    "modified_time": "2026-05-07T17:15:06+02:00",
+    "sha256": "7c09b3b9866f633c60005b7446f29e9612fae00a8789ab9fe983b32b2f08828d"
+  },
+  "onnx": {
+    "path": "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_int8_640x960_batch1_warmup10_20260720_192532/onnx/oct_albument2_v6_inference_only.onnx",
+    "filename": "oct_albument2_v6_inference_only.onnx",
+    "size_bytes": 12326349,
+    "size_mib": 11.755322456359863,
+    "modified_time": "2026-07-20T16:59:54.519119+02:00",
+    "sha256": "6a58292b377d7bdfe208fa23adff170e864d9d8695dba0c7ab4d6e426ff15524"
+  },
+  "engine": {
+    "path": "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_int8_640x960_batch1_warmup10_20260720_192532/engine/oct_albument2_v6_tensorrt_int8_1x3x640x960.engine",
+    "filename": "oct_albument2_v6_tensorrt_int8_1x3x640x960.engine",
+    "size_bytes": 30400385,
+    "size_mib": 28.992066383361816,
+    "modified_time": "2026-07-20T19:38:02.687815+02:00",
+    "sha256": "82754d9c353330540cf393aa7c13d385ab182945ba4b24bbbc3c07fed22cd466"
+  },
+  "calibration_cache": {
+    "path": "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_int8_640x960_batch1_warmup10_20260720_192532/calibration/oct_albument2_v6_int8_calibration.cache",
+    "filename": "oct_albument2_v6_int8_calibration.cache",
+    "size_bytes": 10733,
+    "size_mib": 0.010235786437988281,
+    "modified_time": "2026-07-20T19:33:55.356428+02:00",
+    "sha256": "d31edf77cac862ad164184524127795b23662fc36bff08e2e747fdc3630a14b2"
+  }
+}

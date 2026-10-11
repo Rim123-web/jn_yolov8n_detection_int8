@@ -1,0 +1,45 @@
+Warmup 1/10 complete
+Warmup 2/10 complete
+Warmup 3/10 complete
+Warmup 4/10 complete
+Warmup 5/10 complete
+Warmup 6/10 complete
+Warmup 7/10 complete
+Warmup 8/10 complete
+Warmup 9/10 complete
+Warmup 10/10 complete
+Measured 20/192
+Measured 40/192
+Measured 60/192
+Measured 80/192
+Measured 100/192
+Measured 120/192
+Measured 140/192
+Measured 160/192
+Measured 180/192
+Measured 192/192
+{
+  "status": "PASS",
+  "correctness_executions": 20,
+  "warmup_executions": 10,
+  "measured_executions": 192,
+  "accepted_total_benchmark_executions": 202,
+  "hidden_executions": 0,
+  "failed_measured_images": 0,
+  "discarded_measured_rows": 0,
+  "first_measured_image_discarded": false,
+  "failed_images_retried": false,
+  "shape_discovery_inference": false,
+  "deterministic_sorted_order": true,
+  "official_measured_wall_clock_duration_s": 30.984266373001446,
+  "official_wall_start_monotonic_s": 17101.020286615,
+  "official_wall_end_monotonic_s": 17132.004552988,
+  "active_telemetry_samples": 61,
+  "prior_rejected_attempts": 0,
+  "prior_rejected_inference_executions": 0,
+  "prior_rejected_attempt_evidence": null,
+  "accepted_execution_count_excludes_prior_rejected_attempts": true,
+  "raw_output_buffering": "One host-to-host copy per measured output occurs after end_to_end_ms but inside wall-clock duration; no extra engine execution.",
+  "metric_calculation_inside_timed_loop": false,
+  "drawing_or_saving_inside_timed_loop": false
+}

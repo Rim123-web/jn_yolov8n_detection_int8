@@ -1,0 +1,21 @@
+{
+  "status": "CONFIRMED",
+  "batch": 1,
+  "input_shape": [
+    1,
+    3,
+    640,
+    960
+  ],
+  "height": 640,
+  "width": 960,
+  "static": true,
+  "stride_compatible": true,
+  "evidence": [
+    "Source model stride is 32",
+    "all test images are audited",
+    "prior authoritative fixed-shape detection protocol used 1x3x640x960",
+    "user explicitly requires fair-comparison shape to be confirmed before use"
+  ],
+  "not_square": true
+}

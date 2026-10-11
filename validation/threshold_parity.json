@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "thresholds": {
+    "confidence_threshold": 0.25,
+    "metric_confidence_floor": 0.001,
+    "nms_iou_threshold": 0.7,
+    "matching_iou_threshold": 0.5,
+    "maximum_detections": null,
+    "class_aware_nms": true,
+    "authoritative_sources": [
+      "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_fp32_640x960_batch1_warmup10_20260720_165642/scripts/common.py",
+      "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_fp32_640x960_batch1_warmup10_20260720_165642/metrics/detection_metrics.json"
+    ]
+  },
+  "source": "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_fp32_640x960_batch1_warmup10_20260720_165642/config/detection_thresholds.json"
+}

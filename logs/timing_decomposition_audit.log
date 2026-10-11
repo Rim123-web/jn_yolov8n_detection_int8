@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "row_count": 192,
+  "definition": "end_to_end_ms - preprocessing_total_ms - transfer_inclusive_inference_ms - postprocessing_total_ms",
+  "interpretation": "The outer timer legitimately includes Python scheduling, telemetry-thread preemption, object construction, and other orchestration between nested timers.",
+  "raw_timings_modified": false,
+  "residual_mean_ms": 0.7354176249999989,
+  "residual_median_ms": 0.5293569999999992,
+  "residual_p95_abs_ms": 0.7040061499999973,
+  "residual_min_ms": 0.4978730000000091,
+  "residual_max_ms": 15.477701999999994,
+  "rows_with_abs_residual_ge_10ms": 2,
+  "outlier_fraction": 0.010416666666666666,
+  "outlier_indices": [
+    3,
+    7
+  ],
+  "acceptance": {
+    "all_finite": true,
+    "minimum_residual_at_least_minus_2ms": true,
+    "p95_absolute_residual_below_2ms": true,
+    "absolute_mean_residual_below_2ms": true,
+    "outlier_fraction_at_most_2_percent": true,
+    "maximum_absolute_residual_below_50ms": true
+  }
+}

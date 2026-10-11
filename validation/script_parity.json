@@ -1,0 +1,77 @@
+{
+  "status": "PASS",
+  "canonical_scripts": [
+    {
+      "script": "preprocessing.py",
+      "fp32_sha256": "8057790b6cc97bc97cedad9aeba5ab74a1f9c66b2d63b2ef9a0a5f87b00373fe",
+      "int8_sha256": "8057790b6cc97bc97cedad9aeba5ab74a1f9c66b2d63b2ef9a0a5f87b00373fe",
+      "byte_identical": true
+    },
+    {
+      "script": "tensorrt_runtime.py",
+      "fp32_sha256": "e742d6905f87d7ef2c3ac27a111ccb61e7bbb74ab056c1db2272802f4f46b809",
+      "int8_sha256": "e742d6905f87d7ef2c3ac27a111ccb61e7bbb74ab056c1db2272802f4f46b809",
+      "byte_identical": true
+    },
+    {
+      "script": "postprocessing.py",
+      "fp32_sha256": "bcf0a09902a647b5c477ba888a71a8e9652ff37f8b4b25eb14f057d97181a842",
+      "int8_sha256": "bcf0a09902a647b5c477ba888a71a8e9652ff37f8b4b25eb14f057d97181a842",
+      "byte_identical": true
+    },
+    {
+      "script": "nms.py",
+      "fp32_sha256": "a76703c3d6f859d4479ce578366280076bc8461dc600c71eb4c52d99a766612a",
+      "int8_sha256": "a76703c3d6f859d4479ce578366280076bc8461dc600c71eb4c52d99a766612a",
+      "byte_identical": true
+    },
+    {
+      "script": "run_jtop_health_test.py",
+      "fp32_sha256": "d5d7aaecdbf70e428787af622fd5d994e5b301cc32faa7687272975fd48320b2",
+      "int8_sha256": "d5d7aaecdbf70e428787af622fd5d994e5b301cc32faa7687272975fd48320b2",
+      "byte_identical": true
+    },
+    {
+      "script": "capture_idle.py",
+      "fp32_sha256": "95bcfa0844950d1f5a1e2884cb3b29c57a7cc4cd45f5e18be21313dab2e5771d",
+      "int8_sha256": "95bcfa0844950d1f5a1e2884cb3b29c57a7cc4cd45f5e18be21313dab2e5771d",
+      "byte_identical": true
+    },
+    {
+      "script": "calculate_detection_metrics.py",
+      "fp32_sha256": "fdc3e574f15e426ef138d7e8cf29f6a8f2122037be21bb94aa567f22f690ba84",
+      "int8_sha256": "fdc3e574f15e426ef138d7e8cf29f6a8f2122037be21bb94aa567f22f690ba84",
+      "byte_identical": true
+    },
+    {
+      "script": "analyze_timings.py",
+      "fp32_sha256": "3dd6dc472f658d475fc7596d97a49e24a385dd140d46ed2cee58a8aeb41346e6",
+      "int8_sha256": "3dd6dc472f658d475fc7596d97a49e24a385dd140d46ed2cee58a8aeb41346e6",
+      "byte_identical": true
+    },
+    {
+      "script": "analyze_energy.py",
+      "fp32_sha256": "17987c625ab89d18b47b438af80eacd582c9a1b0ab7912cecc32233cc12bf685",
+      "int8_sha256": "17987c625ab89d18b47b438af80eacd582c9a1b0ab7912cecc32233cc12bf685",
+      "byte_identical": true
+    },
+    {
+      "script": "analyze_resources.py",
+      "fp32_sha256": "1432041acd30f6b68b121abfa711be9739aaab7bf4602193e1d6d39dd610456b",
+      "int8_sha256": "1432041acd30f6b68b121abfa711be9739aaab7bf4602193e1d6d39dd610456b",
+      "byte_identical": true
+    },
+    {
+      "script": "telemetry.py",
+      "fp32_sha256": "9e2d5e9837fc525e1f5f8249e3cf55092050bd76c7270ca522abfe0208f261bf",
+      "int8_sha256": "9e2d5e9837fc525e1f5f8249e3cf55092050bd76c7270ca522abfe0208f261bf",
+      "byte_identical": true
+    }
+  ],
+  "expected_new_scripts": [
+    "int8_calibrator.py",
+    "build_int8_engine.py",
+    "benchmark_int8_detection.py",
+    "compare_fp32_fp16_int8.py"
+  ]
+}

@@ -1,0 +1,66 @@
+Python executable: /home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python
+Python version: 3.8.10
+PYTHONNOUSERSITE=1
+PYTHONPATH=/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_int8_640x960_batch1_warmup10_20260720_192532/scripts:/home/jetson/Downloads/jetson_folder/jetson_benchmark_env/lib/python3.8/site-packages
+Packages:
+{
+  "torch": {
+    "status": "OK",
+    "version": "1.13.0a0+git7c98e70",
+    "path": "/usr/local/lib/python3.8/dist-packages/torch/__init__.py"
+  },
+  "torchvision": {
+    "status": "OK",
+    "version": "0.14.0a0+5ce4506",
+    "path": "/usr/local/lib/python3.8/dist-packages/torchvision/__init__.py"
+  },
+  "ultralytics": {
+    "status": "OK",
+    "version": "8.4.47",
+    "path": "/home/jetson/Downloads/jetson_nano/.venv_yolo/lib/python3.8/site-packages/ultralytics/__init__.py"
+  },
+  "numpy": {
+    "status": "OK",
+    "version": "1.24.4",
+    "path": "/home/jetson/Downloads/jetson_folder/jetson_benchmark_env/lib/python3.8/site-packages/numpy/__init__.py"
+  },
+  "PIL": {
+    "status": "OK",
+    "version": "9.2.0",
+    "path": "/usr/local/lib/python3.8/dist-packages/PIL/__init__.py"
+  },
+  "cv2": {
+    "status": "OK",
+    "version": "4.13.0",
+    "path": "/home/jetson/Downloads/jetson_nano/.venv_yolo/lib/python3.8/site-packages/cv2/__init__.py"
+  },
+  "onnx": {
+    "status": "OK",
+    "version": "1.17.0",
+    "path": "/home/jetson/Downloads/jetson_folder/jetson_benchmark_env/lib/python3.8/site-packages/onnx/__init__.py"
+  },
+  "onnxruntime": {
+    "status": "OK",
+    "version": "1.19.2",
+    "path": "/home/jetson/Downloads/jetson_folder/jetson_benchmark_env/lib/python3.8/site-packages/onnxruntime/__init__.py",
+    "providers": [
+      "AzureExecutionProvider",
+      "CPUExecutionProvider"
+    ]
+  },
+  "jtop": {
+    "status": "OK",
+    "version": "4.3.2",
+    "path": "/usr/local/lib/python3.8/dist-packages/jtop/__init__.py"
+  },
+  "psutil": {
+    "status": "OK",
+    "version": "7.2.2",
+    "path": "/home/jetson/Downloads/jetson_folder/jetson_benchmark_env/lib/python3.8/site-packages/psutil/__init__.py"
+  },
+  "tensorrt_python": {
+    "status": "OK",
+    "version": "8.0.1.6",
+    "path": "/home/jetson/.local/lib/python3.8/site-packages/tensorrt/__init__.py"
+  }
+}

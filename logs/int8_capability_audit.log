@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "tensorrt_version": "8.0.1.6",
+  "platform_has_fast_int8": false,
+  "platform_has_fast_fp16": true,
+  "compute_capability": "5.3 (Jetson Nano Maxwell, from platform specification)",
+  "int8_build_policy": "continue when TensorRT accepts INT8 even if platform_has_fast_int8 is false",
+  "builder_flags_available": [
+    "DEBUG",
+    "DISABLE_TIMING_CACHE",
+    "FP16",
+    "GPU_FALLBACK",
+    "INT8",
+    "REFIT",
+    "SAFETY_SCOPE",
+    "SPARSE_WEIGHTS",
+    "STRICT_TYPES",
+    "TF32"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "status": "PASS",
+  "eligible_images": 192,
+  "target": 90,
+  "selected_images": 90,
+  "seed": 42,
+  "strategy": "deterministic greedy multi-label class/aspect/object coverage; sorted final order",
+  "coverage": [
+    {
+      "class_id": 0,
+      "class_name": "leccino",
+      "selected_image_count": 8,
+      "selected_object_count": 323
+    },
+    {
+      "class_id": 1,
+      "class_name": "varietafrancese",
+      "selected_image_count": 9,
+      "selected_object_count": 318
+    },
+    {
+      "class_id": 2,
+      "class_name": "cimadimelfimisto",
+      "selected_image_count": 7,
+      "selected_object_count": 117
+    },
+    {
+      "class_id": 3,
+      "class_name": "ulivigrandi",
+      "selected_image_count": 29,
+      "selected_object_count": 310
+    },
+    {
+      "class_id": 4,
+      "class_name": "montalbanosecolari",
+      "selected_image_count": 16,
+      "selected_object_count": 110
+    },
+    {
+      "class_id": 5,
+      "class_name": "irriguo",
+      "selected_image_count": 21,
+      "selected_object_count": 449
+    }
+  ]
+}

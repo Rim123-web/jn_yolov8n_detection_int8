@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "sample_count": 121,
+  "duration_s": 60.29849197600197,
+  "requested_interval_s": 0.5,
+  "power_mean_w": 2.5132975206611574,
+  "power_median_w": 2.49,
+  "power_min_w": 2.404,
+  "power_max_w": 3.946,
+  "power_p95_w": 2.576,
+  "cpu_mean_percent": 13.979338842975206,
+  "cpu_max_percent": 44.75,
+  "gpu_mean_percent": 0.0,
+  "gpu_max_percent": 0.0,
+  "ram_mean_mib": 1493.8864282024792,
+  "ram_max_mib": 1500.2890625,
+  "temperature_mean_c": 48.43801652892562,
+  "temperature_max_c": 50.0,
+  "throttling_event_count": 0
+}

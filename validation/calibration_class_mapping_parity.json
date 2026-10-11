@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "nc": 6,
+  "class_mapping": {
+    "0": "leccino",
+    "1": "varietafrancese",
+    "2": "cimadimelfimisto",
+    "3": "ulivigrandi",
+    "4": "montalbanosecolari",
+    "5": "irriguo"
+  },
+  "sources": [
+    "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_int8_640x960_batch1_warmup10_20260720_192532/calibration/original_data_yaml.yaml",
+    "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_int8_640x960_batch1_warmup10_20260720_192532/calibration/resolved_data_yaml.yaml",
+    "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_int8_640x960_batch1_warmup10_20260720_192532/config/detection_thresholds.json"
+  ]
+}

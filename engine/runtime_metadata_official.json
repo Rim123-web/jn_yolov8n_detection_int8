@@ -1,0 +1,46 @@
+{
+  "engine_path": "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_int8_640x960_batch1_warmup10_20260720_192532/engine/oct_albument2_v6_tensorrt_int8_1x3x640x960.engine",
+  "tensorrt_version": "8.0.1.6",
+  "cudart_path": "libcudart.so.10.2",
+  "execution_api": "IExecutionContext.execute_async_v2",
+  "cuda_stream": "one package-local runtime stream",
+  "timing": "CUDA events around H2D, execute_async_v2, and D2H; each event end synchronized; stream synchronized before return",
+  "pinned_memory": false,
+  "buffer_allocation": "device buffers allocated once before any warm-up; reusable NumPy host output buffers",
+  "binding_metadata": [
+    {
+      "index": 0,
+      "name": "images",
+      "is_input": true,
+      "engine_shape": [
+        1,
+        3,
+        640,
+        960
+      ],
+      "runtime_shape": [
+        1,
+        3,
+        640,
+        960
+      ],
+      "dtype": "DataType.FLOAT"
+    },
+    {
+      "index": 1,
+      "name": "output0",
+      "is_input": false,
+      "engine_shape": [
+        1,
+        10,
+        12600
+      ],
+      "runtime_shape": [
+        1,
+        10,
+        12600
+      ],
+      "dtype": "DataType.FLOAT"
+    }
+  ]
+}

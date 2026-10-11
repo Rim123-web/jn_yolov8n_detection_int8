@@ -1,0 +1,16 @@
+{
+  "calibrator_class": "TensorRT IInt8EntropyCalibrator2",
+  "algorithm": "Entropy Calibration 2",
+  "batch_size": 1,
+  "image_count": 90,
+  "batch_count": 90,
+  "input_shape": [
+    1,
+    3,
+    640,
+    960
+  ],
+  "cache_path": "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_int8_640x960_batch1_warmup10_20260720_192532/calibration/oct_albument2_v6_int8_calibration.cache",
+  "cache_policy": "fresh; historical cache reuse forbidden",
+  "labels_used_by_calibration": false
+}

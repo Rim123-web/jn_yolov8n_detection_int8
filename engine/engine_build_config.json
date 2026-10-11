@@ -1,0 +1,32 @@
+{
+  "precision_wording": "TensorRT INT8-enabled calibrated execution with TensorRT-permitted internal higher-precision fallbacks",
+  "explicit_batch": true,
+  "input_shape": [
+    1,
+    3,
+    640,
+    960
+  ],
+  "batch_size": 1,
+  "INT8_flag": "ON",
+  "FP16_flag": "OFF",
+  "TF32_flag": "OFF",
+  "DLA": "OFF; default device GPU",
+  "higher_precision_fallbacks": "PERMITTED by TensorRT",
+  "workspace_mib": 768,
+  "workspace_bytes": 805306368,
+  "calibrator": "IInt8EntropyCalibrator2",
+  "calibration_algorithm": "Entropy Calibration 2",
+  "calibration_images": 90,
+  "calibration_batch_size": 1,
+  "calibration_cache_reuse": false,
+  "tactic_sources": "TensorRT 8.0.1 defaults",
+  "timing_iterations": "TensorRT defaults",
+  "builder_optimization_level": "API unavailable/not configured",
+  "timing_cache": "fresh builder process; no historical timing cache",
+  "platform_has_fast_int8": false,
+  "platform_has_fast_fp16": true,
+  "tensorrt_version": "8.0.1.6",
+  "python": "3.8.10",
+  "numpy": "1.24.4"
+}

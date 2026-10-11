@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "reason": "initial metadata subprocess resolved legacy python command; corrected with exact benchmark interpreter",
+  "benchmark_results_modified": false,
+  "inference_rerun": false,
+  "correct_interpreter": "/home/jetson/Downloads/jetson_nano/.venv_yolo/bin/python"
+}

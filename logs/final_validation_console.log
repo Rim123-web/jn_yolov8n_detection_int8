@@ -1,0 +1,278 @@
+{
+  "status": "PASS",
+  "gate_count": 54,
+  "passed_gate_count": 54,
+  "failed_gates": [],
+  "gates": [
+    {
+      "gate": "source_hash_matches_fp32_fp16",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "onnx_hash_matches_fp32_fp16",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "static_input_shape",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "batch_one",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "calibration_dataset_valid",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "class_mapping",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "exact_test_overlap_zero",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "pixel_overlap_zero",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "unresolved_near_duplicates_zero",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "calibration_selection_deterministic",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "calibration_preprocessing_parity",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "int8_flag",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "fp16_flag_documented",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "tf32_off",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "calibrator_attached",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "fresh_cache",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "binding_dtypes_documented",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "fallback_documented",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "platform_capability_documented",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "dla_disabled",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "engine_deserializes",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "engine_hash",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "cache_hash",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "script_parity",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "preprocessing_code_parity",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "postprocessing_code_parity",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "nms_code_parity",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "timing_field_parity",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "threshold_parity",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "test_order_parity",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "warmup_order_parity",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "correctness",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "official_acceptance",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "warmup_rows_10",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "warmup_executions_10",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "measured_rows_192",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "prediction_rows_192",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "hidden_failures_discarded_zero",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "accepted_executions_202",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "timings_finite_nonnegative",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "independent_nms_timing",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "independent_engine_timing",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "e2e_timing",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "jtop_health",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "idle_baseline",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "energy",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "metrics",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "runtime_oom_zero",
+      "pass": true,
+      "evidence": "accepted official validator no_oom PASS"
+    },
+    {
+      "gate": "temporary_swap_absent",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "reference_immutability",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "figures_all_formats",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "figure_data",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "reports",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "complete_manifest",
+      "pass": true,
+      "evidence": "[]"
+    }
+  ]
+}

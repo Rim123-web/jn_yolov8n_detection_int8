@@ -1,0 +1,11 @@
+label,value
+raw_output_decode_ms,0.030220171874999997
+box_conversion_ms,0.6376998020833333
+confidence_calculation_ms,0.1919685
+confidence_filtering_ms,0.26031566145833335
+class_selection_ms,0.05590448437500001
+nms_preparation_ms,0.04583242708333333
+nms_ms,2.9559753906249995
+coordinate_rescaling_ms,0.13590634895833334
+box_clipping_ms,0.29487869791666665
+result_formatting_ms,0.16195086458333333

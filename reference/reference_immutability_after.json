@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "fp32": {
+    "path": "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_fp32_640x960_batch1_warmup10_20260720_165642",
+    "directory_mtime_ns": 1784559487201196602,
+    "manifest_sha256": "bd23ef9048c517b5862063c11e41fc69d6a43834021bd6f11ba4b7b98f38379d",
+    "manifest_entries": 303,
+    "verification_failures": [],
+    "manifest_unchanged_from_before": true,
+    "directory_mtime_unchanged_from_before": true
+  },
+  "fp16": {
+    "path": "/home/jetson/Downloads/jetson_folder/yolov8n_detection_fp32_benchmark/yolov8n_detection_tensorrt_fp16_640x960_batch1_warmup10_20260720_180924",
+    "directory_mtime_ns": 1784563808697086395,
+    "manifest_sha256": "4cd2408c67c9b2203d3c5ad398defce7e3e27733ea35766ccefca0da8a7c34d8",
+    "manifest_entries": 339,
+    "verification_failures": [],
+    "manifest_unchanged_from_before": true,
+    "directory_mtime_unchanged_from_before": true
+  }
+}

@@ -1,0 +1,12 @@
+path: /home/jetson/Downloads/jetson_folder/jetson_valid_imgs
+train: images/val
+val: images/val
+test: images/val
+nc: 6
+names:
+  0: leccino
+  1: varietafrancese
+  2: cimadimelfimisto
+  3: ulivigrandi
+  4: montalbanosecolari
+  5: irriguo

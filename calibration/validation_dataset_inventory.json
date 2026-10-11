@@ -1,0 +1,65 @@
+{
+  "root": "/home/jetson/Downloads/jetson_folder/jetson_valid_imgs",
+  "image_directories": [
+    "/home/jetson/Downloads/jetson_folder/jetson_valid_imgs/images/val"
+  ],
+  "label_directories": [
+    "/home/jetson/Downloads/jetson_folder/jetson_valid_imgs/labels/val"
+  ],
+  "yaml_paths": [
+    "/home/jetson/Downloads/jetson_folder/jetson_valid_imgs/data.yaml"
+  ],
+  "image_count": 192,
+  "annotation_count": 192,
+  "supported_extensions": [
+    ".bmp",
+    ".jpeg",
+    ".jpg",
+    ".png",
+    ".tif",
+    ".tiff",
+    ".webp"
+  ],
+  "total_size_bytes": 60845182,
+  "class_names": [
+    "leccino",
+    "varietafrancese",
+    "cimadimelfimisto",
+    "ulivigrandi",
+    "montalbanosecolari",
+    "irriguo"
+  ],
+  "class_order": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "nc": 6,
+  "object_count": 2100,
+  "objects_per_class": {
+    "0": 323,
+    "1": 318,
+    "2": 117,
+    "3": 598,
+    "4": 295,
+    "5": 449
+  },
+  "images_per_class": {
+    "0": 8,
+    "1": 9,
+    "2": 7,
+    "3": 71,
+    "4": 76,
+    "5": 21
+  },
+  "multi_class_images": 0,
+  "empty_label_images": 0,
+  "missing_labels": 0,
+  "fatal_label_errors": 0,
+  "boxes_outside_normalized_image_bounds": 169,
+  "boundary_warning_policy": "audit warning only; labels are not calibration inputs",
+  "corrupt_images": 0
+}

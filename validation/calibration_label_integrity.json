@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "class_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "class_names": [
+    "leccino",
+    "varietafrancese",
+    "cimadimelfimisto",
+    "ulivigrandi",
+    "montalbanosecolari",
+    "irriguo"
+  ]
+}

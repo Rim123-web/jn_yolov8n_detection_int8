@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "gate_count": 19,
+  "passed": 19,
+  "failed": [],
+  "gates": [
+    {
+      "gate": "process_exit_code",
+      "pass": true,
+      "evidence": "benchmark command exited 0 before this gate"
+    },
+    {
+      "gate": "jtop_active",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "engine_unchanged",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "onnx_unchanged",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "source_unchanged",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "warmup_rows_exact",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "measured_rows_exact",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "prediction_image_rows_exact",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "unique_paths",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "image_order_parity",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "warmup_path_parity",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "failures_zero",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "discarded_zero",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "hidden_zero",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "all_timings_finite_nonnegative",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "predictions_finite",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "telemetry_coverage",
+      "pass": true,
+      "evidence": ""
+    },
+    {
+      "gate": "no_oom",
+      "pass": true,
+      "evidence": "[]"
+    },
+    {
+      "gate": "no_reboot",
+      "pass": true,
+      "evidence": ""
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "label": "TensorRT INT8-enabled execution with TensorRT-permitted higher-precision fallbacks; offline metrics from accepted official predictions",
+  "canonical_metric_script_modified": false,
+  "reason": "The canonical byte-identical FP32 metric script carried an FP32 backend label; only generated metadata labels were corrected after computation.",
+  "metrics_recomputed": false,
+  "inference_executed": false
+}

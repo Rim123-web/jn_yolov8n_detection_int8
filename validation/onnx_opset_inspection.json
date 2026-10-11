@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "opset_imports": [
+    {
+      "domain": "",
+      "version": 12
+    }
+  ],
+  "opset_version": 12,
+  "graph_modified": false,
+  "inspection_only": true
+}
